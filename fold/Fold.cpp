@@ -12,7 +12,7 @@ using std::endl;
  * @param num       [IN]    The number
  * @return the number of digits of num
  */
-unsigned int getNumOfDigits(unsigned int num) {
+unsigned int getNumOfDigits(int num) {
     unsigned int digits = 0;
     while (num > 0) {
         num /= 10;
